@@ -6,3 +6,100 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header .logo {
+    width: 200px;
+    height: 60px;
+}
+
+header .menu {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu li {
+    list-style: none;
+}
+
+.hero {
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 250px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.hero h2 {
+    font-weight: normal;
+    line-height: 40px;
+}
+
+.whats-on h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 100px;
+}
+
+.green {
+    padding: 0 40px;
+}
+
+.green-content {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    display: flex;
+}
+
+.green-content > div {
+    width: 50%;
+}
+
+.green-content-app {
+    text-align: center;
+}
+
+.green-content-app img {
+    width: 200px;
+}
